@@ -1,0 +1,453 @@
+[ {
+  "@id" : "_:genid1",
+  "http://xmlns.com/foaf/0.1/homepage" : [ {
+    "@id" : "https://semic.eu"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Semantic Interoperability Community (SEMIC)"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Arthur"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Schiltz"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "PwC EU Services"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Anastasia"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Sofou"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Trasys International"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Emidio"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Stani"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "PwC EU Services"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Bert"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Van Nuffelen"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Core Vocabularies Working Group"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Florian"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Barthelemy"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "PwC EU Services"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Jitse"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "De Cock"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "PwC EU Services"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Emiel"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Dhondt"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "PwC EU Services"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/firstName" : [ {
+    "@value" : "Pavlina"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Fragkou"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "European Commission"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : "2024-01-31"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/mediator" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "core-person-voc"
+  }, {
+    "@language" : "nl",
+    "@value" : "core-person-voc"
+  } ],
+  "http://www.w3.org/2001/02pd/rec54#editor" : [ {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid16"
+  } ],
+  "http://xmlns.com/foaf/0.1/maker" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/ContactPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Information (e.g. e-mail address, telephone number) of a person or department through which the user can get in touch with."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://data.europa.eu/m8g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contact Point"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "The Core Public Organization Vocabulary defines properties for telephone number, e-mail address and opening hours although it is noteworthy that the class is based on schema.org's <a href=\"http://schema.org/ContactPoint\"> ContactPoint </a> class  that has additional properties that some implementations may find useful."
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/GenericDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The date data type is the union of  xs:date, xs:gYearMonth and xs:gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://data.europa.eu/m8g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Generic date"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/birthDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The point in time on which the Person was born."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/person#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://data.europa.eu/m8g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "date of birth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://data.europa.eu/m8g/GenericDate"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "The date of birth could be expressed as date, gYearMonth or gYear, example:\n<ul>\n<li>- 1980-09-16^^xs:date</li>\n<li>- 1980-09^^xs:gYearMonth</li>\n<li>- 1980^^xs:gYear</li>\n</ul>"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/contactPage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A web page that could be used to reach out the Contact Point."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://data.europa.eu/m8g/ContactPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://data.europa.eu/m8g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contact page"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Document"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/deathDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The point in time on which the Person died."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/person#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://data.europa.eu/m8g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "date of death"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://data.europa.eu/m8g/GenericDate"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "The date of birth could be expressed as date, gYearMonth or gYear, example:\n<ul>\n<li>- 1980-09-16^^xs:date</li>\n<li>- 1980-09^^xs:gYearMonth</li>\n<li>- 1980^^xs:gYear</li>\n</ul>"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An electronic address through which the Contact Point can be contacted."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://data.europa.eu/m8g/ContactPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://data.europa.eu/m8g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has email"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The identities, expressions and societal roles of the Person."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/person#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://data.europa.eu/m8g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gender"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "The gender of an individual should be recorded using a controlled vocabulary that is appropriate for the specific context. In some cases, the chromosomal or physical state of an individual will be more important than the gender that they express, in others the reverse will be true. What is always important is that the controlled vocabulary used to describe an individual's gender is stated explicitly."
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/matronymicName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Name based on the given name of the Person's mother."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/person#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://data.europa.eu/m8g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "matronymic name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/sex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The organism's biological sex."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/person#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://data.europa.eu/m8g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "The recommended controlled vocabulary for this property is <a href=\"https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/human-sex\">the sex authority table of the Publications Office.</a>"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/telephone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A telephone number through which the Contact Point can be contacted."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://data.europa.eu/m8g/ContactPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://data.europa.eu/m8g"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has telephone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/mediator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/02pd/rec54#editor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/person#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/firstName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/lastName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/maker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/affiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
