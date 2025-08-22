@@ -1,0 +1,84 @@
+{
+  "@context" : {
+    "scopeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
+    },
+    "affiliation" : {
+      "@id" : "https://schema.org/affiliation"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker"
+    },
+    "deathDate" : {
+      "@id" : "http://data.europa.eu/m8g/deathDate"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "gender" : {
+      "@id" : "http://data.europa.eu/m8g/gender",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage"
+    },
+    "email" : {
+      "@id" : "http://data.europa.eu/m8g/email",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "contactPage" : {
+      "@id" : "http://data.europa.eu/m8g/contactPage",
+      "@type" : "@id"
+    },
+    "langString" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "ContactPoint" : {
+      "@id" : "http://data.europa.eu/m8g/ContactPoint"
+    },
+    "GenericDate" : {
+      "@id" : "http://data.europa.eu/m8g/GenericDate"
+    },
+    "telephone" : {
+      "@id" : "http://data.europa.eu/m8g/telephone",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "birthDate" : {
+      "@id" : "http://data.europa.eu/m8g/birthDate"
+    },
+    "matronymicName" : {
+      "@id" : "http://data.europa.eu/m8g/matronymicName"
+    },
+    "sex" : {
+      "@id" : "http://data.europa.eu/m8g/sex",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Document" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Document"
+    },
+    "mediator" : {
+      "@id" : "http://purl.org/dc/terms/mediator"
+    },
+    "editor" : {
+      "@id" : "http://www.w3.org/2001/02pd/rec54#editor"
+    }
+  }
+}

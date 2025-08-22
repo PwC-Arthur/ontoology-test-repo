@@ -1,0 +1,270 @@
+@prefix : <http://data.europa.eu/m8g#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://data.europa.eu/m8g#> .
+
+<http://data.europa.eu/m8g> rdf:type owl:Ontology ;
+                             <http://purl.org/dc/terms/issued> "2024-01-31" ;
+                             <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                             <http://purl.org/dc/terms/mediator> _:genid1 ;
+                             rdfs:label "core-person-voc"@en ,
+                                        "core-person-voc"@nl ;
+                             <http://www.w3.org/2001/02pd/rec54#editor> _:genid2 ,
+                                                                        _:genid4 ,
+                                                                        _:genid6 ,
+                                                                        _:genid8 ,
+                                                                        _:genid10 ,
+                                                                        _:genid12 ,
+                                                                        _:genid14 ,
+                                                                        _:genid16 ;
+                             <http://xmlns.com/foaf/0.1/maker> _:genid17 .
+
+_:genid1 <http://xmlns.com/foaf/0.1/homepage> <https://semic.eu> ;
+          <http://xmlns.com/foaf/0.1/name> "Semantic Interoperability Community (SEMIC)" .
+
+_:genid2 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+          <http://xmlns.com/foaf/0.1/firstName> "Florian" ;
+          <http://xmlns.com/foaf/0.1/lastName> "Barthelemy" ;
+          <https://schema.org/affiliation> [ <http://xmlns.com/foaf/0.1/name> "PwC EU Services"
+                                           ] .
+
+_:genid4 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+          <http://xmlns.com/foaf/0.1/firstName> "Jitse" ;
+          <http://xmlns.com/foaf/0.1/lastName> "De Cock" ;
+          <https://schema.org/affiliation> [ <http://xmlns.com/foaf/0.1/name> "PwC EU Services"
+                                           ] .
+
+_:genid6 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+          <http://xmlns.com/foaf/0.1/firstName> "Emiel" ;
+          <http://xmlns.com/foaf/0.1/lastName> "Dhondt" ;
+          <https://schema.org/affiliation> [ <http://xmlns.com/foaf/0.1/name> "PwC EU Services"
+                                           ] .
+
+_:genid8 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+          <http://xmlns.com/foaf/0.1/firstName> "Pavlina" ;
+          <http://xmlns.com/foaf/0.1/lastName> "Fragkou" ;
+          <https://schema.org/affiliation> [ <http://xmlns.com/foaf/0.1/name> "European Commission"
+                                           ] .
+
+_:genid10 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+           <http://xmlns.com/foaf/0.1/firstName> "Arthur" ;
+           <http://xmlns.com/foaf/0.1/lastName> "Schiltz" ;
+           <https://schema.org/affiliation> [ <http://xmlns.com/foaf/0.1/name> "PwC EU Services"
+                                            ] .
+
+_:genid12 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+           <http://xmlns.com/foaf/0.1/firstName> "Anastasia" ;
+           <http://xmlns.com/foaf/0.1/lastName> "Sofou" ;
+           <https://schema.org/affiliation> [ <http://xmlns.com/foaf/0.1/name> "Trasys International"
+                                            ] .
+
+_:genid14 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+           <http://xmlns.com/foaf/0.1/firstName> "Emidio" ;
+           <http://xmlns.com/foaf/0.1/lastName> "Stani" ;
+           <https://schema.org/affiliation> [ <http://xmlns.com/foaf/0.1/name> "PwC EU Services"
+                                            ] .
+
+_:genid16 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+           <http://xmlns.com/foaf/0.1/firstName> "Bert" ;
+           <http://xmlns.com/foaf/0.1/lastName> "Van Nuffelen" .
+
+_:genid17 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+           <http://xmlns.com/foaf/0.1/firstName> "Core Vocabularies Working Group" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/mediator
+<http://purl.org/dc/terms/mediator> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2001/02pd/rec54#editor
+<http://www.w3.org/2001/02pd/rec54#editor> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/firstName
+<http://xmlns.com/foaf/0.1/firstName> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/lastName
+<http://xmlns.com/foaf/0.1/lastName> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/maker
+<http://xmlns.com/foaf/0.1/maker> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/affiliation
+<https://schema.org/affiliation> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://data.europa.eu/m8g/birthDate
+<http://data.europa.eu/m8g/birthDate> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <http://www.w3.org/ns/person#Person> ;
+                                      rdfs:range <http://data.europa.eu/m8g/GenericDate> .
+
+
+###  http://data.europa.eu/m8g/contactPage
+<http://data.europa.eu/m8g/contactPage> rdf:type owl:ObjectProperty ;
+                                        rdfs:domain <http://data.europa.eu/m8g/ContactPoint> ;
+                                        rdfs:range <http://xmlns.com/foaf/0.1/Document> ;
+                                        rdfs:comment "A web page that could be used to reach out the Contact Point."@en ;
+                                        rdfs:isDefinedBy <http://data.europa.eu/m8g> ;
+                                        rdfs:label "contact page"@en .
+
+
+###  http://data.europa.eu/m8g/deathDate
+<http://data.europa.eu/m8g/deathDate> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <http://www.w3.org/ns/person#Person> ;
+                                      rdfs:range <http://data.europa.eu/m8g/GenericDate> .
+
+
+###  http://data.europa.eu/m8g/gender
+<http://data.europa.eu/m8g/gender> rdf:type owl:ObjectProperty ;
+                                   rdfs:domain <http://www.w3.org/ns/person#Person> ;
+                                   rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                   rdfs:comment "The identities, expressions and societal roles of the Person."@en ;
+                                   rdfs:isDefinedBy <http://data.europa.eu/m8g> ;
+                                   rdfs:label "gender"@en ;
+                                   <http://www.w3.org/2004/02/skos/core#scopeNote> "The gender of an individual should be recorded using a controlled vocabulary that is appropriate for the specific context. In some cases, the chromosomal or physical state of an individual will be more important than the gender that they express, in others the reverse will be true. What is always important is that the controlled vocabulary used to describe an individual's gender is stated explicitly."@en .
+
+
+###  http://data.europa.eu/m8g/sex
+<http://data.europa.eu/m8g/sex> rdf:type owl:ObjectProperty ;
+                                rdfs:domain <http://www.w3.org/ns/person#Person> ;
+                                rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                rdfs:comment "The organism's biological sex."@en ;
+                                rdfs:isDefinedBy <http://data.europa.eu/m8g> ;
+                                rdfs:label "sex"@en ;
+                                <http://www.w3.org/2004/02/skos/core#scopeNote> "The recommended controlled vocabulary for this property is <a href=\"https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/human-sex\">the sex authority table of the Publications Office.</a>"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://data.europa.eu/m8g/birthDate
+<http://data.europa.eu/m8g/birthDate> rdf:type owl:DatatypeProperty .
+
+
+###  http://data.europa.eu/m8g/deathDate
+<http://data.europa.eu/m8g/deathDate> rdf:type owl:DatatypeProperty .
+
+
+###  http://data.europa.eu/m8g/email
+<http://data.europa.eu/m8g/email> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain <http://data.europa.eu/m8g/ContactPoint> ;
+                                  rdfs:range rdfs:Literal ;
+                                  rdfs:comment "An electronic address through which the Contact Point can be contacted."@en ;
+                                  rdfs:isDefinedBy <http://data.europa.eu/m8g> ;
+                                  rdfs:label "has email"@en .
+
+
+###  http://data.europa.eu/m8g/matronymicName
+<http://data.europa.eu/m8g/matronymicName> rdf:type owl:DatatypeProperty ;
+                                           rdfs:domain <http://www.w3.org/ns/person#Person> ;
+                                           rdfs:range rdf:langString ;
+                                           rdfs:comment "Name based on the given name of the Person's mother."@en ;
+                                           rdfs:isDefinedBy <http://data.europa.eu/m8g> ;
+                                           rdfs:label "matronymic name"@en .
+
+
+###  http://data.europa.eu/m8g/telephone
+<http://data.europa.eu/m8g/telephone> rdf:type owl:DatatypeProperty ;
+                                      rdfs:domain <http://data.europa.eu/m8g/ContactPoint> ;
+                                      rdfs:range rdfs:Literal ;
+                                      rdfs:comment "A telephone number through which the Contact Point can be contacted."@en ;
+                                      rdfs:isDefinedBy <http://data.europa.eu/m8g> ;
+                                      rdfs:label "has telephone"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://data.europa.eu/m8g/ContactPoint
+<http://data.europa.eu/m8g/ContactPoint> rdf:type owl:Class ;
+                                         rdfs:comment "Information (e.g. e-mail address, telephone number) of a person or department through which the user can get in touch with."@en ;
+                                         rdfs:isDefinedBy <http://data.europa.eu/m8g> ;
+                                         rdfs:label "Contact Point"@en ;
+                                         <http://www.w3.org/2004/02/skos/core#scopeNote> "The Core Public Organization Vocabulary defines properties for telephone number, e-mail address and opening hours although it is noteworthy that the class is based on schema.org's <a href=\"http://schema.org/ContactPoint\"> ContactPoint </a> class  that has additional properties that some implementations may find useful."@en .
+
+
+###  http://data.europa.eu/m8g/GenericDate
+<http://data.europa.eu/m8g/GenericDate> rdf:type owl:Class ;
+                                        rdfs:comment "The date data type is the union of  xs:date, xs:gYearMonth and xs:gYear"@en ;
+                                        rdfs:isDefinedBy <http://data.europa.eu/m8g> ;
+                                        rdfs:label "Generic date"@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/person#Person
+<http://www.w3.org/ns/person#Person> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Document
+<http://xmlns.com/foaf/0.1/Document> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://data.europa.eu/m8g/birthDate> rdfs:comment "The point in time on which the Person was born."@en ;
+                                      rdfs:isDefinedBy <http://data.europa.eu/m8g> ;
+                                      rdfs:label "date of birth"@en ;
+                                      <http://www.w3.org/2004/02/skos/core#scopeNote> """The date of birth could be expressed as date, gYearMonth or gYear, example:
+<ul>
+<li>- 1980-09-16^^xs:date</li>
+<li>- 1980-09^^xs:gYearMonth</li>
+<li>- 1980^^xs:gYear</li>
+</ul>"""@en .
+
+
+<http://data.europa.eu/m8g/deathDate> rdfs:comment "The point in time on which the Person died."@en ;
+                                      rdfs:isDefinedBy <http://data.europa.eu/m8g> ;
+                                      rdfs:label "date of death"@en ;
+                                      <http://www.w3.org/2004/02/skos/core#scopeNote> """The date of birth could be expressed as date, gYearMonth or gYear, example:
+<ul>
+<li>- 1980-09-16^^xs:date</li>
+<li>- 1980-09^^xs:gYearMonth</li>
+<li>- 1980^^xs:gYear</li>
+</ul>"""@en .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

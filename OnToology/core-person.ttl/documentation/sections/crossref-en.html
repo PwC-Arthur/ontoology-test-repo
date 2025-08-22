@@ -1,0 +1,366 @@
+<h2 id="crossreference" class="list">Cross-reference for core-person-voc classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by core-person-voc.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/ContactPoint" title="http://data.europa.eu/m8g/ContactPoint">Contact Point</a>
+      </li>
+      <li>
+         <a href="#/GenericDate" title="http://data.europa.eu/m8g/GenericDate">Generic date</a>
+      </li>
+   </ul>
+   <div class="entity" id="/ContactPoint">
+      <h3>Contact Point<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://data.europa.eu/m8g/ContactPoint</p>
+      <div class="comment">
+         <span class="markdown">Information (e.g. e-mail address, telephone number) of a person or department through which the user can get in touch with.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://data.europa.eu/m8g">http://data.europa.eu/m8g</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/contactPage" title="http://data.europa.eu/m8g/contactPage">contact page</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/email" title="http://data.europa.eu/m8g/email">has email</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/telephone" title="http://data.europa.eu/m8g/telephone">has telephone</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/GenericDate">
+      <h3>Generic date<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://data.europa.eu/m8g/GenericDate</p>
+      <div class="comment">
+         <span class="markdown">The date data type is the union of  xs:date, xs:gYearMonth and xs:gYear</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://data.europa.eu/m8g">http://data.europa.eu/m8g</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/birthDate" title="http://data.europa.eu/m8g/birthDate">date of birth</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/deathDate" title="http://data.europa.eu/m8g/deathDate">date of death</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/contactPage" title="http://data.europa.eu/m8g/contactPage">contact page</a>
+      </li>
+      <li>
+         <a href="#/birthDate" title="http://data.europa.eu/m8g/birthDate">
+            <span>date of birth</span>
+         </a>
+      </li>
+      <li>
+         <a href="#/deathDate" title="http://data.europa.eu/m8g/deathDate">
+            <span>date of death</span>
+         </a>
+      </li>
+      <li>
+         <a href="#/gender" title="http://data.europa.eu/m8g/gender">gender</a>
+      </li>
+      <li>
+         <a href="#/sex" title="http://data.europa.eu/m8g/sex">sex</a>
+      </li>
+   </ul>
+   <div class="entity" id="/contactPage">
+      <h3>contact page<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://data.europa.eu/m8g/contactPage</p>
+      <div class="comment">
+         <span class="markdown">A web page that could be used to reach out the Contact Point.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://data.europa.eu/m8g">http://data.europa.eu/m8g</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ContactPoint" title="http://data.europa.eu/m8g/ContactPoint">Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://xmlns.com/foaf/0.1/Document"
+                  target="_blank"
+                  title="http://xmlns.com/foaf/0.1/Document">document</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/birthDate">
+      <h3>date of birth<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://data.europa.eu/m8g/birthDate</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/ns/person#Person"
+                  target="_blank"
+                  title="http://www.w3.org/ns/person#Person">person</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/GenericDate" title="http://data.europa.eu/m8g/GenericDate">Generic date</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is also defined as</dt>
+            <dd>data property</dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/deathDate">
+      <h3>date of death<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://data.europa.eu/m8g/deathDate</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/ns/person#Person"
+                  target="_blank"
+                  title="http://www.w3.org/ns/person#Person">person</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/GenericDate" title="http://data.europa.eu/m8g/GenericDate">Generic date</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is also defined as</dt>
+            <dd>data property</dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/gender">
+      <h3>gender<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://data.europa.eu/m8g/gender</p>
+      <div class="comment">
+         <span class="markdown">The identities, expressions and societal roles of the Person.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://data.europa.eu/m8g">http://data.europa.eu/m8g</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/ns/person#Person"
+                  target="_blank"
+                  title="http://www.w3.org/ns/person#Person">person</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2004/02/skos/core#Concept"
+                  target="_blank"
+                  title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/sex">
+      <h3>sex<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://data.europa.eu/m8g/sex</p>
+      <div class="comment">
+         <span class="markdown">The organism's biological sex.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://data.europa.eu/m8g">http://data.europa.eu/m8g</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/ns/person#Person"
+                  target="_blank"
+                  title="http://www.w3.org/ns/person#Person">person</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2004/02/skos/core#Concept"
+                  target="_blank"
+                  title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/email" title="http://data.europa.eu/m8g/email">has email</a>
+      </li>
+      <li>
+         <a href="#/telephone" title="http://data.europa.eu/m8g/telephone">has telephone</a>
+      </li>
+      <li>
+         <a href="#/matronymicName" title="http://data.europa.eu/m8g/matronymicName">matronymic name</a>
+      </li>
+   </ul>
+   <div class="entity" id="/email">
+      <h3>has email<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://data.europa.eu/m8g/email</p>
+      <div class="comment">
+         <span class="markdown">An electronic address through which the Contact Point can be contacted.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://data.europa.eu/m8g">http://data.europa.eu/m8g</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ContactPoint" title="http://data.europa.eu/m8g/ContactPoint">Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2000/01/rdf-schema#Literal"
+                  target="_blank"
+                  title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/telephone">
+      <h3>has telephone<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://data.europa.eu/m8g/telephone</p>
+      <div class="comment">
+         <span class="markdown">A telephone number through which the Contact Point can be contacted.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://data.europa.eu/m8g">http://data.europa.eu/m8g</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ContactPoint" title="http://data.europa.eu/m8g/ContactPoint">Contact Point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2000/01/rdf-schema#Literal"
+                  target="_blank"
+                  title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/matronymicName">
+      <h3>matronymic name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://data.europa.eu/m8g/matronymicName</p>
+      <div class="comment">
+         <span class="markdown">Name based on the given name of the Person's mother.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://data.europa.eu/m8g">http://data.europa.eu/m8g</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/ns/person#Person"
+                  target="_blank"
+                  title="http://www.w3.org/ns/person#Person">person</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+                  target="_blank"
+                  title="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">lang string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+</div>
+</div>
